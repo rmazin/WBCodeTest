@@ -18,3 +18,5 @@ python playerProfile.py
 ```
 
 The Script will prompt to enter player personal information into the window, it will proceed to run an example MUD styel minigame which will create and log the profile as well as a couple of achievements for the user based on the user's input.  At the end it will show what would essentially be the user's leaderboard information.
+
+The code will create a JSON file with the profile information in the same directory as the python script.  The goal would be that this JSON is the beginnings of what a REST API would output. In this case a "user profile"
